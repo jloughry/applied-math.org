@@ -10,6 +10,8 @@ upload: commit
 commit:
 	git add *
 	git commit
+	git pull
+	git push
 
 vi:
 	vi $(target)
